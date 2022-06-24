@@ -34,7 +34,31 @@ class CssTransitionDemo extends PureComponent {
     _renderCssTransition() {
         const {isShow = true} = this.state;
         return (
-            <CSSTransition in={isShow} classNames={'card'} timeout={300}>
+            <CSSTransition in={isShow}
+                           classNames={'card'}
+                           timeout={300}
+                           unmountOnExit={true}
+                           appear
+                           onEnter={el => {
+                               console.log('进入状态')
+                           }}
+                           onEntering={el => {
+                               console.log('正在进入')
+                           }}
+                           onEntered={el => {
+                               console.log('正在完成')
+                           }}
+                           onExit={el => {
+                               console.log('退出状态')
+                           }}
+                           onExiting={el => {
+                               console.log('退出状态')
+                           }}
+                           onExited={el => {
+                               console.log('退出完成')
+                           }}
+            >
+
                 <Card style={{width: 300}}
                       cover={
                           <img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>
