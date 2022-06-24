@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import CSSTransitionDemo from "./transition/CSSTransitionDemo";
 
 class App extends Component {
     render() {
         return (
             <div>
-                11122
+                <CSSTransitionDemo/>
             </div>
         );
     }
