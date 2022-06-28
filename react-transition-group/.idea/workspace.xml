@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df15941a-4d6a-4e14-b392-1def3ae0a3f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/transition/SwitchTransition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/transition/TransitonGroup.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/transition/SwitchTransitionDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transition/SwitchTransitionDemo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transition/TransitonGroupDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/transition/TransitonGroupDemo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1656041071334</updated>
       <workItem from="1656041074792" duration="6959000" />
-      <workItem from="1656293139901" duration="1237000" />
+      <workItem from="1656293139901" duration="1520000" />
+      <workItem from="1656380270116" duration="797000" />
     </task>
     <servers />
   </component>
